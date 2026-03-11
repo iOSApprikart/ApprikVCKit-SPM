@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "appwebrtc-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iOSApprikart/AppWebRTC-SPM",
+      "state" : {
+        "revision" : "b269048c93acf26870daca55a5f69eb49b6de1d0",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
