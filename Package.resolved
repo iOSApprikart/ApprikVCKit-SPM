@@ -1,21 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "starscream",
+      "identity" : "appwebrtc-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/daltoniam/Starscream.git",
+      "location" : "https://github.com/iOSApprikart/AppWebRTC-SPM",
       "state" : {
-        "revision" : "c6bfd1af48efcc9a9ad203665db12375ba6b145a",
-        "version" : "4.0.8"
-      }
-    },
-    {
-      "identity" : "swiftmessages",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SwiftKickMobile/SwiftMessages.git",
-      "state" : {
-        "revision" : "c0ff6c65bfc00e6a707957cb7069988c5cde2a30",
-        "version" : "10.0.2"
+        "revision" : "b269048c93acf26870daca55a5f69eb49b6de1d0",
+        "version" : "1.0.1"
       }
     }
   ],

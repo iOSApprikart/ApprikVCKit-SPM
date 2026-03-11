@@ -15,12 +15,8 @@ let package = Package(
     ],
     dependencies: [
            .package(
-               url: "https://github.com/daltoniam/Starscream.git",
-               from: "4.0.6"
-           ),
-           .package(
-               url: "https://github.com/SwiftKickMobile/SwiftMessages.git",
-               from: "10.0.0"
+               url: "https://github.com/iOSApprikart/AppWebRTC-SPM",
+               from: "1.0.1"
            )
        ],
     targets: [
@@ -28,8 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "ApprikVCKit",
-            dependencies: [ .product(name: "Starscream", package: "Starscream"),
-                            .product(name: "SwiftMessages", package: "SwiftMessages")
+            dependencies: [ .product(name: "appwebrtc-spm", package: "appwebrtc-spm")
             ],
             path: "Sources/ApprikVCKit"
         ),
